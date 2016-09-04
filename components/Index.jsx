@@ -1,14 +1,12 @@
-// components/Index.jsx
-var React = require('react')
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 
-var Index = React.createClass({
-  render: function () {
+export default class Index extends Component {
+  render() {
     return (
-      <main>
-        Index component
-      </main>
+      <h1>Hello World</h1> 
     )
   }
-})
+} 
 
-module.exports = Index
+ReactDOM.render(<Index/>, document.querySelector('main'));
