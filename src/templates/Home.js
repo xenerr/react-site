@@ -7,7 +7,6 @@ export default class Home extends React.Component {
         <div>
             <h1>Home page</h1>
             <p>This is a home page</p>
-            <CoolButton text='A super cool button'/>
         </div>
     )
   }
