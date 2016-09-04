@@ -9,6 +9,3 @@ module.exports = function render(locals, callback) {
     callback(null, '<!DOCTYPE html>' + html)
   })
 }
-
-
-
