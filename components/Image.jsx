@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-
 export default class Image extends Component {
     render() {
+        const { source } = this.props;
         return (
-            <Image source='./src/img/logo.gif' />
+            <img src={ source } />
         );
     }
 }
