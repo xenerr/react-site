@@ -6,7 +6,7 @@
   "scripts": {
     "webpack": "webpack --progress --colors",
     "dev": "webpack-dev-server --progress --colors",
-    "lint": "eslint components",
+    "lint": "eslint src",
     "start": "npm run dev"
   },
   "repository": {
