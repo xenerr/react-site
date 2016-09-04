@@ -1,7 +1,3 @@
 {
-  "plugins": ["transform-react-jsx"],
-  "ignore": [
-    "foo.js",
-    "bar/**/*.js"
-  ]
+  "presets": ["stage-1", "react"]
 }
