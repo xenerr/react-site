@@ -1,1 +1,1 @@
-import Index from './components/Index.jsx';
+import Index from './src/components/Index.jsx';
